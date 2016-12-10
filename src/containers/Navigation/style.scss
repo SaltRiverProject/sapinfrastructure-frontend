@@ -1,0 +1,27 @@
+.navbar .divider-vertical {
+  height: 50px;
+  margin: 0 9px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #e6e5e5;
+}
+
+.navbar-inverse .divider-vertical {
+  border-right-color: #222222;
+  border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse .nav > .divider-vertical {
+    display: none;
+   }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+
+}
+.profile-menu .fullName {
+  text-transform: capitalize;
+}

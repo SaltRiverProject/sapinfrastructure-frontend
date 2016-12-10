@@ -1,0 +1,13 @@
+.OutOfSyncHosts {
+  height: 300px !important;
+  overflow-y: scroll;
+}
+
+.OutOfSyncHosts {
+  list-style: none;
+  margin-left:0;
+  padding-left: 0;
+}
+.OutOfSyncHosts li:nth-child(odd) {
+  background-color: #EFEFEF;
+}
